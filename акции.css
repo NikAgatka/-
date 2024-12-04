@@ -1,0 +1,164 @@
+/*Шапка*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Centry Gothic;
+}
+.menu {
+    display: flex;                         
+    justify-content: center;
+    border-bottom: 1px solid (75, 0, 255, 0.955);
+    background: rgb(55, 255, 245);
+    width: 100%;        
+}      
+.menu-ul {      
+    display: flex;     
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+.menu-ctroka {
+    position: relative;
+    padding: 0 1em;
+}
+.menu-ctroka a {
+    text-decoration: none;
+    color: rgb(75, 0, 255, 0.955);
+    font-weight: bold;
+    display: block;
+    padding: 0.75 1.5em;
+}
+.menu-ctroka a {
+    text-decoration: none;
+    color: rgb(75, 0, 255, 0.955);
+    font-weight: bold;
+    display: block;
+    padding: 0.75 1.5em;
+    transition: color 0.3s ease;
+}
+.konkyrs1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.konkyrs {
+    padding: 7px;
+    background-color:rgb(207, 47, 255) ;
+    text-align: center;
+}
+/*Шапка*/
+
+/*main*/
+.kartochki {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.kartochka {
+    width: 300px;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(55, 255, 245);
+    text-align: center;
+    border: 2px solid rgba(75, 0, 255, 0.955);
+    transition: 0.3s ease-in-out;
+}
+.center {
+    text-align: center;
+}
+.textp {
+    font-size: 40px;
+}
+.color {
+    color: rgba(75, 0, 255, 0.955);
+}
+h1 {
+    text-align: center;
+    color: rgb(207, 47, 255);
+    font-weight: 800;
+    font-size: 50px;
+}
+.kollection {
+    text-align: center;
+    color: rgb(55, 255, 245);
+    font-style: italic;
+    font-size: 35px;
+}
+.text {
+    font-size: 20px;
+}
+#koll1 {
+    background-color: rgba(0, 255, 255, 0.555);
+    color: rgba(75, 0, 255, 0.955);
+}
+#koll2 {
+    background-color: rgba(0, 255, 255, 0.555);
+    color: rgba(75, 0, 255, 0.955);
+}
+/*main*/
+
+/*Подвал*/
+.fon {
+    background-color: rgba(0, 255, 255, 0.555);
+}
+.verxpodval {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nomerfon {
+    background-color: rgba(0, 255, 255, 0.555);
+}
+.zvonok {
+    text-decoration: none;
+    color: rgba(75, 0, 255, 0.955);
+    font-size: 25px;
+    background-color: rgba(0, 240, 240, 0.555);
+    border-style: groove;
+    border-color: rgba(75, 0, 255, 0.955);
+    border-width: 3px;
+    border-radius: 3%;
+    padding: 8px;
+}
+.chast {
+    margin: 18px;
+}
+.fon2 {
+    background-color: rgba(75, 0, 255, 0.955);
+    color: aliceblue;
+    padding-left: 15px;
+}
+.podval {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.podvalleft {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.podvalcenter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.podvalright {
+    display: flex;
+    flex-direction: column;
+}
+.none {
+    list-style-type: none;
+}
+.px {
+    font-size: 25px;
+}
+.center {
+    text-align: center;
+}
+.padding {
+    padding-bottom: 20px;
+}
+/*Подвал*/

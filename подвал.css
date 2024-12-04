@@ -1,0 +1,64 @@
+/*Подвал*/
+.fon {
+    background-color: rgba(0, 255, 255, 0.555);
+}
+.verxpodval {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nomerfon {
+    background-color: rgba(0, 255, 255, 0.555);
+}
+.zvonok {
+    text-decoration: none;
+    color: rgba(75, 0, 255, 0.955);
+    font-size: 25px;
+    background-color: rgba(0, 240, 240, 0.555);
+    border-style: groove;
+    border-color: rgba(75, 0, 255, 0.955);
+    border-width: 3px;
+    border-radius: 3%;
+    padding: 8px;
+}
+.chast {
+    margin: 18px;
+}
+.fon2 {
+    background-color: rgba(75, 0, 255, 0.955);
+    color: aliceblue;
+    padding-left: 15px;
+}
+.podval {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.podvalleft {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.podvalcenter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.podvalright {
+    display: flex;
+    flex-direction: column;
+}
+.none {
+    list-style-type: none;
+}
+.px {
+    font-size: 25px;
+}
+.center {
+    text-align: center;
+}
+.padding {
+    padding-bottom: 20px;
+}
+/*Подвал*/
